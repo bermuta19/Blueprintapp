@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Upload and Polygon Drawing</title>
+  <link rel="stylesheet" href="../styles/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/konva@9.2.0/konva.min.js"></script>
+  <style>
+    .polygon-menu {
+      position: absolute;
+      background: white;
+      border: 1px solid black;
+      padding: 10px;
+      display: none;
+    }
+    .polygon-details {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <input type="file" id="upload-image" accept="image/*">
+    <div id="workspace">
+      <div id="konva-container"></div>
+      <div id="polygon-list">
+        <h3>Polygon List</h3>
+        <ul id="polygon-items"></ul>
+      </div>
+    </div>
+  </div>
+  <script src="upload.js" type="module"></script>
+  <script src="canvas.js" type="module"></script>
+  <script src="polygonManager.js" type="module"></script>
+  <script src="../renderer.js" type="module"></script>
+</body>
+</html>
