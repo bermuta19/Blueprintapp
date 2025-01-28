@@ -1,2 +1,20 @@
-use 
-npm start
+##### Installation
+Clone the repository from GitHub.
+Navigate to the project directory.
+Run npm install to install the dependencies.
+Run npm start to start the Electron app.
+
+##### Purpose
+purpose of this project was to familiarize myself with javascript and html. 
+The initial idea is for a blueprint segmenting app for security at venues to properly check each room depending on risks/manpower.
+In the future I want to test out image processing software to automatically accomplish this but the initial task was get more used to javascript and html.
+
+
+##### Future fixes/plans
+- fix selection list to track currently selected polygon
+- add color variants to polygons
+- add save and load feature to image/polygons
+- style all elements
+
+##### Problems
+- when pushing to github a file in history was too large, i had to create an new branch with no history to push it. all commits and branches are local.
