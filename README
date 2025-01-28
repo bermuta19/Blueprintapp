@@ -15,6 +15,7 @@ In the future I want to test out image processing software to automatically acco
 - add color variants to polygons
 - add save and load feature to image/polygons
 - style all elements
+- add react for menu management
 
 ##### Problems
 - when pushing to github a file in history was too large, i had to create an new branch with no history to push it. all commits and branches are local.
